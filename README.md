@@ -1,30 +1,39 @@
-## Calculate unit quarter circle area(Pi/4)
+# Monte Carlo
 
-Calculate the unit quarter circle area using `Monte Carlo` method in `Matlab`.
+Using `Monte Carlo` method to calculate the unit quarter circle area(Pi/4) in `Matlab`.
 
-## Get started
-
-### Prerequisite
-
-Set the number of points for each case in `calculateUnitQuarterCircleArea.m`
-
-```
-totalPointCounts = [count1, count2, count3...]
-```
+## Getting started
 
 ### Usage
-run `calculateUnitQuarterCircleArea.m`
+
+- Set the sample size in `monteCarlo.m`
+
+    ```matlab
+    2 totalPointCounts = [100, 1000, 1000]
+    ```
+
+- Run `monteCarlo.m`
 
 ### Testing
 
-```
+Sample size:
+
+```matlab
 totalPointCounts = [100, 1000, 1000]
 ```
 
-![](100_points.jpg)
+100 points:
 
-![](1000_points.jpg)
+![100 points](100Points.jpg)
 
-![](10000_points.jpg)
+1000 points:
 
-![](line_graph.jpg)
+![1000 points](1000Points.jpg)
+
+10000 points:
+
+![10000 points](10000Points.jpg)
+
+Result:
+
+![result](result.jpg)

@@ -1,5 +1,4 @@
 tic
-
 totalPointCounts = [100, 1000, 10000]; 
 
 len = length(totalPointCounts);
@@ -52,5 +51,4 @@ end
 figure;
 i = 1:3;
 plot(area(i, 2), area(i, 1), '*-');
-
 toc
